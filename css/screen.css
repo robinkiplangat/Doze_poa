@@ -1,0 +1,70 @@
+body {
+  font-family: Ubuntu;
+}
+
+a {
+	text-decoration: none;
+}
+
+.ui-link img {
+	height: 50px;
+}
+
+.main-language, .english {
+	color: #000;
+}
+
+.main-language {
+	font-weight: bold;
+}
+
+.english {
+	font-weight: normal;
+}
+
+#homepage .main-language {
+	margin-top: 0;
+}
+
+#homepage .english {
+	margin-top: -15px;
+	margin-bottom: 7px;
+}
+
+.ui-link {
+	display: block;
+	background-color: #7fc4e2;
+	padding: 5px 0 0;
+	margin: 0 0 15px;
+	text-align: center;
+	border-radius: 3px;
+	border: 1px solid #e8e8e8;
+}
+
+.ui-block-a {
+	margin-left: -15px;
+}
+
+.ui-block-b {
+	margin-left: 15px;
+}
+
+.ui-btn-inner .explanation {
+  display: block;
+  padding-top: 10px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.ui-li .ui-btn-text a.ui-link-inherit, .ui-btn-inner {
+  white-space: normal;
+  overflow: visible;
+}
+
+#homepage .ui-header .ui-title {
+  margin: 0.4em 0 0.3em 0;
+}
+
+.ui-header .ui-title img {
+  width: 140px;
+}
